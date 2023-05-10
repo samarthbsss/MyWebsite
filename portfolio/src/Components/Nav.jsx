@@ -3,7 +3,7 @@ import styles from '../Css/nav.css'
 
 const Navbar=()=>{
     return  <nav className="navbar">
-        <h1>Value</h1>
+        <h1>Samarth</h1>
         <div className="buttoncluster">
         <button>Home</button>
         <button>Project</button>
