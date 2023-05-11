@@ -3,12 +3,12 @@ import styles from '../Css/nav.css'
 
 const Navbar=()=>{
     return  <nav className="navbar">
-        <h1>Samarth</h1>
+        <h1 className='name'>Samarth</h1>
         <div className="buttoncluster">
-        <button>Home</button>
-        <button>Project</button>
-        <button>about</button>
-        <button>Connect</button>
+        <button className="buttons">Home</button>
+        <button className="buttons">Project</button>
+        <button className="buttons">about</button>
+        <button className="buttons">Resume</button>
 
         </div>
        

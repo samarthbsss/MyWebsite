@@ -1,13 +1,52 @@
 
 .navbar{
     display: flex;
-    position: sticky;
+    position: static;
     top:"0";
-   justify-content: space-between;
-    background:blue;
+    justify-content: space-between;
+    /* background:#7031BD; */
+    border: 1px solid red;
+}
+
+
+.navbar:hover{
+    color:white;
+    background-color: grey;
+}
+
+.name{
+    margin-left: 1rem;
 }
 
 .buttoncluster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     align-items: left;
-    margin-right: 0;
+    margin-right: 1rem;
+
+}
+
+.buttons{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    /* color: brown; */
+}
+
+.buttons:hover{
+    background: black;
+    color: white;
+     transform: scale(1.2);
+}
+
+@media only screen and (max-width:500px){
+    .buttoncluster{
+        display: none;
+    }
+    .name{
+        margin-left: 40%;
+        /* align-items: center; */
+    }
 }
