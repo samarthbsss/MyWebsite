@@ -1,0 +1,10 @@
+.contact{
+    display: block;
+    height: 20rem;
+    margin: 0px;
+    padding: 1rem;
+
+    border: 1px solid black;
+
+    align-items: center;
+}

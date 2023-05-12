@@ -1,7 +1,8 @@
 
 .navbar{
     display: flex;
-    position: static;
+    position: fixed;
+    width: 100%;
     top:"0";
     justify-content: space-between;
     /* background:#7031BD; */
@@ -24,7 +25,6 @@
     align-items: center;
     align-items: left;
     margin-right: 1rem;
-
 }
 
 .buttons{

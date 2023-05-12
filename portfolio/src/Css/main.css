@@ -1,6 +1,17 @@
 .main{
-    width: 100%;
+    display: flex;
     height:50rem;
-    /* background: red; */
     border: 5px solid black;
+    justify-content: space-around;
+}
+
+.nameholder{
+    border:1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.holder{
+    margin-right: 0px;
 }

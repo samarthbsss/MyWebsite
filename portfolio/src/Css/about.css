@@ -1,0 +1,5 @@
+.about{
+    display: flex;
+    height :40rem;
+    border:2px solid black;
+}

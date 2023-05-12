@@ -1,10 +1,13 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
+import styles from '../Css/gitcop.css'
+import image from '../images/react.png'
 
 const GitComp = () => {
   return (
     <>
       <div>
+        <h1>GitHub Overview</h1>
         <div>
           <img
             alt="git statux"
@@ -15,7 +18,7 @@ const GitComp = () => {
             alt=""
           />
         </div>
-        <div style={{border:'1px solid red', alignContent:'center', justifyContent:'center' }} >
+        <div style={{border:'1px solid red',display:'flex', padding:'3rem', alignContent:'center', justifyContent:'center' }} >
         <GitHubCalendar
           username="samarthbsss"
           style={{
@@ -39,5 +42,39 @@ const GitComp = () => {
     </>
   );
 };
+export const Teck=()=>{
+  const style={
+    container: {
+      width: '10rem',
+      height: '10rem',
+      border: '1px solid #ccc',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      
+    },
+    image: {
+      maxWidth: '10rem',
+      maxHeight: '10rem',
+      objectFit: 'contain',
+    },
+  }
+
+ 
+  return <div className="teck">
+      <h1>
+        Teck Stack
+      </h1>
+       <div className="stack">
+       <div style={styles.container}>
+          <img src={image} style={style.image} />
+        <p>React</p>
+        </div>
+        
+      </div>
+    
+
+  </div>
+}
 
 export default GitComp;
