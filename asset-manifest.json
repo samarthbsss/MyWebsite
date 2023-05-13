@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MyWebsite/static/css/main.9f5ed751.css",
+    "main.js": "/MyWebsite/static/js/main.cb082d9c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/MyWebsite/static/js/787.1ed0c42c.chunk.js",
+    "static/media/react.png": "/MyWebsite/static/media/react.2f2532db663fd5ec5f95.png",
+    "static/media/chakraui.png": "/MyWebsite/static/media/chakraui.15320604467d004df871.png",
+    "static/media/boot.png": "/MyWebsite/static/media/boot.ff4ba441ec3324145fde.png",
+    "static/media/html.png": "/MyWebsite/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/java.png": "/MyWebsite/static/media/java.266bd9fb2663dcc057b4.png",
+    "static/media/layered-waves-haikei.svg": "/MyWebsite/static/media/layered-waves-haikei.896d3040c4303df96318345b1b96d213.svg",
+    "static/media/logo.svg": "/MyWebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/express.svg": "/MyWebsite/static/media/express.4925c0127df8857c18b38329795ce88f.svg",
+    "index.html": "/MyWebsite/index.html",
+    "main.9f5ed751.css.map": "/MyWebsite/static/css/main.9f5ed751.css.map",
+    "main.cb082d9c.js.map": "/MyWebsite/static/js/main.cb082d9c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/MyWebsite/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f5ed751.css",
+    "static/js/main.cb082d9c.js"
+  ]
+}
