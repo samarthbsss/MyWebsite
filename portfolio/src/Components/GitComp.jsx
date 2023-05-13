@@ -2,8 +2,34 @@ import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import styles from '../Css/gitcop.css'
 import image from '../images/react.png'
+import jav from '../images/java.png'
+import html from '../images/html.png'
+import chakra from '../images/chakraui.png'
+import redux from '../images/redux.png'
+import node from '../images/node.png'
+import boot from '../images/boot.png'
+import mongo from '../images/mongo.png'
+import mongoose from '../images/mongoose.png' 
+import express from '../images/express.svg'
 
 const GitComp = () => {
+  const style={
+    container: {
+      width: '10rem',
+      height: '10rem',
+      border: '1px solid #ccc',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      
+    },
+    image: {
+      maxWidth: '10rem',
+      maxHeight: '10rem',
+      objectFit: 'contain',
+    },
+  }
+
   return (
     <>
       <div>
@@ -39,42 +65,63 @@ const GitComp = () => {
           alt="most used"
         />
       </div>
-    </>
-  );
-};
-export const Teck=()=>{
-  const style={
-    container: {
-      width: '10rem',
-      height: '10rem',
-      border: '1px solid #ccc',
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      
-    },
-    image: {
-      maxWidth: '10rem',
-      maxHeight: '10rem',
-      objectFit: 'contain',
-    },
-  }
-
- 
-  return <div className="teck">
+      <div className="teck">
       <h1>
         Teck Stack
       </h1>
        <div className="stack">
-       <div style={styles.container}>
+       <div style={styles.container} className="box">
           <img src={image} style={style.image} />
         <p>React</p>
         </div>
-        
+    
+       <div style={styles.container} className="box">
+          <img src={jav} style={style.image} />
+        <p>JavaScript</p>
+        </div>
+      
+      <div style={styles.container} className="box">
+          <img src={html} style={style.image} />
+        <p>HTML</p>
+      </div>
+
+      <div style={styles.container} className="box">
+          <img src={chakra} style={style.image} />
+        <p>Chakra Ui</p>
+      </div>
+
+      <div style={styles.container} className="box">
+          <img src={mongo} style={style.image} />
+        <p>Mongo DB</p>
+      </div>
+
+      <div style={styles.container} className="box">
+          <img src={redux} style={style.image} />
+        <p>Redux</p>
+      </div>
+
+      <div style={styles.container} className="box">
+          <img src={boot} style={style.image} />
+        <p>Bootstrap</p>
+      </div>
+
+      <div style={styles.container} className="box">
+          <img src={mongoose} style={style.image} />
+        <p>Mongoose</p>
+      </div>
+
+      <div style={styles.container} className="box">
+          <img src={express} style={style.image} />
+        <p>Express</p>
+      </div>
+
       </div>
     
 
   </div>
-}
+    </>
+  );
+};
+
 
 export default GitComp;

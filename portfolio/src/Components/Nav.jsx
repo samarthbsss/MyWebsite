@@ -9,6 +9,10 @@ const Navbar=()=>{
         <button className="buttons">Project</button>
         <button className="buttons">about</button>
         <button className="buttons">Resume</button>
+        <label class="switch">
+    <input type="checkbox"/>
+    <span class="slider"></span>
+</label>
 
         </div>
        

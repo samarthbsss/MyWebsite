@@ -1,6 +1,6 @@
 import Navbar from "./Nav";
 import Main from "./Main";
-import GitComp,{ Teck } from "./GitComp";
+import GitComp from "./GitComp";
 import Footer from "./Fotter";
 import { Contact } from "./Contact";
 import { About } from "./About";
@@ -13,7 +13,8 @@ const Home=()=>{
  <Main/>
  <About/>
  <GitComp/>
- <Teck/>
+ {/* <Teck/> */}
+ <br></br>
  <Contact/>
  <Footer/>
 
